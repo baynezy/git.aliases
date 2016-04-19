@@ -19,7 +19,7 @@ I love git flow, but the utility requires that you type really long commands lik
 
 ###### Start Feature
 
-    git fs <new-feature>
+    git fs <feature-name>
 
 ###### Finish Feature
 
@@ -28,6 +28,16 @@ I love git flow, but the utility requires that you type really long commands lik
 or
 
     git ff <feature-name>
+
+##### Releases
+
+###### Start Release
+
+    git rs <release-name>
+
+###### Finish Release
+
+    git rf <release-name>
 
 #### General Git
 Here I have shortened or combined commands that I type all the time.
