@@ -60,5 +60,15 @@ Here I have shortened or combined commands that I type all the time.
 git commit</code></pre>
 			</td>
 		</tr>
+		<tr>
+			<td>
+<pre><code>git pall</code></pre>
+			</td>
+			<td>
+				<pre>
+<code>git push origin --all
+git push origin --tags</code></pre>
+			</td>
+		</tr>
 	</tbody>
 </table>
