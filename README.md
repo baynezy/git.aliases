@@ -39,6 +39,16 @@ or
 
     git rf <release-name>
 
+##### Hotfixes
+
+###### Start Hotfix
+
+    git hfs <hotfix-name>
+
+###### Finish Hotfix
+
+    git hff <hotfix-name>
+
 #### General Git
 Here I have shortened or combined commands that I type all the time.
 
