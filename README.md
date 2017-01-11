@@ -1,4 +1,5 @@
 # git.aliases
+
 My preferred git aliases
 
 ## Usage
@@ -6,6 +7,7 @@ My preferred git aliases
 ### Installation
 
 #### Windows
+
 Navigate to the route folder in your Bash client.
 
     $ ./add.sh
@@ -13,6 +15,7 @@ Navigate to the route folder in your Bash client.
 ### Aliases
 
 #### Git Flow
+
 I love git flow, but the utility requires that you type really long commands like `git flow feature add <new-feature>`. This is too much typing.
 
 ##### Features
@@ -29,6 +32,12 @@ or
 
     git ff <feature-name>
 
+###### Rebase a Feature
+
+To interactively rebase a feature branch before merging it
+
+    git rbf <feature-name>
+
 ##### Releases
 
 ###### Start Release
@@ -38,6 +47,12 @@ or
 ###### Finish Release
 
     git rf <release-name>
+
+###### Rebase a Release
+
+To interactively rebase a release branch before merging it
+
+    git rbr <release-name>
 
 ##### Hotfixes
 
@@ -49,7 +64,14 @@ or
 
     git hff <hotfix-name>
 
+###### Rebase a Hotfix
+
+To interactively rebase a hotfix branch before merging it
+
+    git rbhf <hotfix-name>
+
 #### General Git
+
 Here I have shortened or combined commands that I type all the time.
 
 <table>
