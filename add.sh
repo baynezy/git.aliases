@@ -9,3 +9,4 @@ git config --global alias.pall '!git push origin --all && git push origin --tags
 git config --global alias.rbf '!git rebase -i `git merge-base $1 develop`'
 git config --global alias.rbhf '!git rebase -i `git merge-base $1 master`'
 git config --global alias.rbr '!git rebase -i `git merge-base $1 develop`'
+git config --global alias.cleanup '!git branch --merged | egrep  -v "(^\*|master|dev)" | xargs git branch -d'
