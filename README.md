@@ -70,13 +70,23 @@ To interactively rebase a hotfix branch before merging it
 
     git rbhf <hotfix-name>
 
-###### Delete all merged branches
+#### General Git
+
+##### Delete all merged branches
 
 This will remove all merged branches that are not `master` or `develop`
 
     git cleanup
 
-#### General Git
+##### Commit
+
+    git com
+
+##### Checkout
+
+    git co
+
+##### Combinations
 
 Here I have shortened or combined commands that I type all the time.
 
