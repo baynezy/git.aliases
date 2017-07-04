@@ -1,3 +1,7 @@
+# config
+git config --global difftool.prompt false
+
+# aliases
 git config --global alias.fs 'flow feature start'
 git config --global alias.ff 'flow feature finish'
 git config --global alias.rs 'flow release start'
