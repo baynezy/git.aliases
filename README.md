@@ -34,9 +34,9 @@ or
 
 ###### Rebase a Feature
 
-To interactively rebase a feature branch before merging it
+To interactively rebase a feature branch before merging it. **Make sure you are in the branch you want to rebase**
 
-    git rbf <feature-name>
+    git rbd
 
 ##### Releases
 
@@ -50,9 +50,9 @@ To interactively rebase a feature branch before merging it
 
 ###### Rebase a Release
 
-To interactively rebase a release branch before merging it
+To interactively rebase a release branch before merging it. **Make sure you are in the branch you want to rebase**
 
-    git rbr <release-name>
+    git rbd
 
 ##### Hotfixes
 
@@ -66,9 +66,9 @@ To interactively rebase a release branch before merging it
 
 ###### Rebase a Hotfix
 
-To interactively rebase a hotfix branch before merging it
+To interactively rebase a hotfix branch before merging it. **Make sure you are in the branch you want to rebase**
 
-    git rbhf <hotfix-name>
+    git rbm
 
 #### General Git
 
