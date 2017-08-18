@@ -86,6 +86,18 @@ This will remove all merged branches that are not `master` or `develop`
 
     git co
 
+##### Log One Line
+
+    git logo
+
+##### Log Just The Commits on your Feature Branch
+
+    git logf
+
+##### Log Just The Commits on your Feature Branch One Line
+
+    git logfo
+
 ##### Combinations
 
 Here I have shortened or combined commands that I type all the time.

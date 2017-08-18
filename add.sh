@@ -18,3 +18,6 @@ git config --global alias.cleanup '!git branch --merged | egrep  -v "(^\*|master
 git config --global alias.co 'checkout'
 git config --global alias.com 'commit'
 git config --global alias.ppull '!git fetch origin -p && git checkout develop && git merge origin/develop && git cleanup'
+git config --global alias.logf 'log develop..'
+git config --global alias.logo 'log --oneline'
+git config --global alias.logfo '!git logf --oneline'
