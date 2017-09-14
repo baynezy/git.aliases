@@ -17,7 +17,7 @@ git config --global alias.bcm '!git merge-base `git rev-parse --abbrev-ref HEAD`
 git config --global alias.cleanup '!git branch --merged | egrep  -v "(^\*|master|dev)" | xargs git branch -d'
 git config --global alias.co 'checkout'
 git config --global alias.com 'commit'
-git config --global alias.ppull '!git fetch origin -p && git checkout develop && git merge origin/develop && git cleanup'
+git config --global alias.ppull '!git fetch origin -p && git checkout master && git merge origin/master && git checkout develop && git merge origin/develop && git cleanup'
 git config --global alias.logf 'log develop..'
 git config --global alias.logo 'log --oneline'
 git config --global alias.logfo '!git logf --oneline'
