@@ -98,6 +98,10 @@ This will remove all merged branches that are not `master` or `develop`
 
     git logfo
 
+##### Update the last commit to be authored by you and timestamped to now
+
+    git plagiarise
+
 ##### Combinations
 
 Here I have shortened or combined commands that I type all the time.

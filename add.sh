@@ -22,3 +22,4 @@ git config --global alias.upull '!git fetch upstream -p && git checkout master &
 git config --global alias.logf 'log develop..'
 git config --global alias.logo 'log --oneline'
 git config --global alias.logfo '!git logf --oneline'
+git config --global alias.plagiarise 'commit --amend --reset-author --no-edit'
