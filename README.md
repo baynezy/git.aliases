@@ -102,6 +102,10 @@ This will remove all merged branches that are not `master` or `develop`
 
     git plagiarise
 
+##### List tags in order they were created
+
+    git tago
+
 ##### Combinations
 
 Here I have shortened or combined commands that I type all the time.
