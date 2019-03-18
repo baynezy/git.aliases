@@ -102,6 +102,10 @@ This will remove all merged branches that are not `master` or `develop`
 
     git logfo
 
+##### Update the last commit to be timestamped to now
+
+    git touch
+
 ##### Update the last commit to be authored by you and timestamped to now
 
     git plagiarise
