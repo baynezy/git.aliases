@@ -10,13 +10,14 @@ My preferred git aliases
 
 Navigate to the route folder in your Bash client.
 
-    $ ./add.sh
+    ./add.sh
 
 ### Aliases
 
 #### Git Flow
 
-I love git flow, but the utility requires that you type really long commands like `git flow feature add <new-feature>`. This is too much typing.
+I love git flow, but the utility requires that you type really long commands
+like `git flow feature add <new-feature>`. This is too much typing.
 
 ##### Features
 
@@ -34,7 +35,8 @@ or
 
 ###### Rebase a Feature
 
-To interactively rebase a feature branch before merging it. **Make sure you are in the branch you want to rebase**
+To interactively rebase a feature branch before merging it.
+**Make sure you arein the branch you want to rebase**
 
     git rbd
 
@@ -50,7 +52,8 @@ To interactively rebase a feature branch before merging it. **Make sure you are 
 
 ###### Rebase a Release
 
-To interactively rebase a release branch before merging it. **Make sure you are in the branch you want to rebase**
+To interactively rebase a release branch before merging it.
+**Make sure you are in the branch you want to rebase**
 
     git rbd
 
@@ -66,7 +69,8 @@ To interactively rebase a release branch before merging it. **Make sure you are 
 
 ###### Rebase a Hotfix
 
-To interactively rebase a hotfix branch before merging it. **Make sure you are in the branch you want to rebase**
+To interactively rebase a hotfix branch before merging it.
+**Make sure you are in the branch you want to rebase**
 
     git rbm
 
