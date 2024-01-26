@@ -16,7 +16,7 @@ Navigate to the route folder in your Bash client.
 
 #### Git Flow
 
-I love git flow, but the utility requires that you type really long commands
+I love git-flow, but the utility requires that you type long commands
 like `git flow feature add <new-feature>`. This is too much typing.
 
 ##### Features
@@ -36,7 +36,7 @@ or
 ###### Rebase a Feature
 
 To interactively rebase a feature branch before merging it.
-**Make sure you arein the branch you want to rebase**
+**Make sure you are in the branch you want to rebase**
 
     git rbd
 
@@ -113,6 +113,10 @@ This will remove all merged branches that are not `master` or `develop`
 ##### List tags in order they were created
 
     git tago
+
+##### Remove files that were committed but are not in .gitignore
+
+    git reignore
 
 ##### Combinations
 
